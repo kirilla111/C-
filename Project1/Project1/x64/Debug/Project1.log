@@ -1,0 +1,12 @@
+﻿  MyForm.cpp
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(337,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(347,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(360,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(366,1): warning C4305: +=: усечение из "double" в "float"
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(369,1): warning C4305: +=: усечение из "double" в "float"
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(372,1): warning C4305: -=: усечение из "double" в "float"
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(376,1): warning C4305: -=: усечение из "double" в "float"
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.h(383,1): warning C4305: -=: усечение из "double" в "float"
+C:\Users\00kir\Desktop\c++\Project1\Project1\MyForm.cpp(8,1): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project1.vcxproj -> C:\Users\00kir\Desktop\c++\Project1\x64\Debug\Project1.exe
