@@ -102,6 +102,19 @@ namespace Project1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->heightTrackBar))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->tempTrackBar))->BeginInit();
 			this->SuspendLayout();
+
+			pens = gcnew array<Pen^>(10);
+			pens[0] = gcnew Pen(Color::Blue, 1.0f);
+			pens[1] = gcnew Pen(Color::Green, 1.0f);
+			pens[2] = gcnew Pen(Color::Orange, 1.0f);
+			pens[3] = gcnew Pen(Color::Red, 1.0f);
+			pens[4] = gcnew Pen(Color::Pink, 1.0f);
+			pens[5] = gcnew Pen(Color::Gray, 1.0f);
+			pens[6] = gcnew Pen(Color::Brown, 1.0f);
+			pens[7] = gcnew Pen(Color::Black, 1.0f);
+			pens[8] = gcnew Pen(Color::Purple, 1.0f);
+			pens[9] = gcnew Pen(Color::Violet, 1.0f);
+
 			// 
 			// pictureBox1
 			// 
@@ -254,7 +267,7 @@ namespace Project1 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(325, 560);
+			this->label5->Location = System::Drawing::Point(419, 560);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(295, 13);
 			this->label5->TabIndex = 16;
@@ -264,7 +277,7 @@ namespace Project1 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(325, 528);
+			this->label7->Location = System::Drawing::Point(487, 528);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(192, 13);
 			this->label7->TabIndex = 17;
